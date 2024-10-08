@@ -1,0 +1,414 @@
+[2024-10-08 08:48:16] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-08 08:48:16] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-08 08:48:16] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-08 08:48:17] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-08 08:48:17] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-08 08:48:17] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-08 08:48:17] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296\
+[2024-10-08 08:48:17] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/blog/blog.github.io/
+[2024-10-08 08:48:17] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-08 08:48:17] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-08 08:48:17] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-08 08:48:17] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-08 08:48:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/
+[2024-10-08 08:48:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-08 08:48:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1d17221d-D9t1xr.tmp
+[2024-10-08 08:48:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/?simply_static_page=1
+[2024-10-08 08:48:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/?simply_static_page=1
+[2024-10-08 08:48:19] [class-ss-url-fetcher.php:103] Filesize: 103456 bytes
+[2024-10-08 08:48:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-08 08:48:19] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-08 08:48:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1d17221d-D9t1xr.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/index.html
+[2024-10-08 08:48:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:20] [class-ss-fetch-urls-task.php:159] Adding 12 URLs to the queue
+[2024-10-08 08:48:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:20] [class-ss-page.php:119] Checking Content Identical:d076d24ec4c91e99d9f081f66a1dbc5c205e4a83===. Value: FALSE
+[2024-10-08 08:48:20] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-08 08:48:20] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-08 08:48:20] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-08 08:48:20] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-08 08:48:20] [class-ss-fetch-urls-task.php:69] Total pages: 12; Pages remaining: 11
+[2024-10-08 08:48:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/sample-page/
+[2024-10-08 08:48:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 12
+[2024-10-08 08:48:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1d465899-BLxD01.tmp
+[2024-10-08 08:48:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/sample-page/?simply_static_page=2
+[2024-10-08 08:48:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/sample-page/?simply_static_page=2
+[2024-10-08 08:48:21] [class-ss-url-fetcher.php:103] Filesize: 97028 bytes
+[2024-10-08 08:48:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-08 08:48:21] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-10-08 08:48:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1d465899-BLxD01.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/sample-page/index.html
+[2024-10-08 08:48:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:22] [class-ss-fetch-urls-task.php:159] Adding 13 URLs to the queue
+[2024-10-08 08:48:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:22] [class-ss-page.php:119] Checking Content Identical:24b31deaee2ed5e9a148922e7fa4f9e10f0b90c1===. Value: FALSE
+[2024-10-08 08:48:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/category/uncategorized/
+[2024-10-08 08:48:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 12
+[2024-10-08 08:48:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1d6cc5dc-WLlmlR.tmp
+[2024-10-08 08:48:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/category/uncategorized/?simply_static_page=3
+[2024-10-08 08:48:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/category/uncategorized/?simply_static_page=3
+[2024-10-08 08:48:23] [class-ss-url-fetcher.php:103] Filesize: 103962 bytes
+[2024-10-08 08:48:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-08 08:48:23] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-10-08 08:48:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1d6cc5dc-WLlmlR.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/category/uncategorized/index.html
+[2024-10-08 08:48:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:24] [class-ss-fetch-urls-task.php:159] Adding 14 URLs to the queue
+[2024-10-08 08:48:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:24] [class-ss-page.php:119] Checking Content Identical:d82a6e2b61678d6ab332b9ee927ee1712235cc8d===. Value: FALSE
+[2024-10-08 08:48:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/2024/10/08/hello-world/
+[2024-10-08 08:48:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 12
+[2024-10-08 08:48:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1d849811-L5dUQ6.tmp
+[2024-10-08 08:48:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/2024/10/08/hello-world/?simply_static_page=4
+[2024-10-08 08:48:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/2024/10/08/hello-world/?simply_static_page=4
+[2024-10-08 08:48:25] [class-ss-url-fetcher.php:103] Filesize: 110871 bytes
+[2024-10-08 08:48:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-08 08:48:25] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/08/hello-world/index.html
+[2024-10-08 08:48:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1d849811-L5dUQ6.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/2024/10/08/hello-world/index.html
+[2024-10-08 08:48:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:25] [class-ss-fetch-urls-task.php:159] Adding 15 URLs to the queue
+[2024-10-08 08:48:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:25] [class-ss-page.php:119] Checking Content Identical:08ba266b62a2b2b9219507911edf0a7b86f1d1bb===. Value: FALSE
+[2024-10-08 08:48:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/author/admin/
+[2024-10-08 08:48:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 12
+[2024-10-08 08:48:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1d9edb14-Rlpzl5.tmp
+[2024-10-08 08:48:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/author/admin/?simply_static_page=5
+[2024-10-08 08:48:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/author/admin/?simply_static_page=5
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:103] Filesize: 104714 bytes
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/index.html
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1d9edb14-Rlpzl5.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/author/admin/index.html
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:159] Adding 14 URLs to the queue
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:27] [class-ss-page.php:119] Checking Content Identical:b92e4c98b2c4b208f9a59d80e7c0c54d5cc6442a===. Value: FALSE
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-08 08:48:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 12
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1dba929a-7AobjR.tmp
+[2024-10-08 08:48:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=6
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=6
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:103] Filesize: 23659 bytes
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1dba929a-7AobjR.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:27] [class-ss-page.php:119] Checking Content Identical:3576353c10ec109664743f318dc8a33b49667781===. Value: FALSE
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/feed/
+[2024-10-08 08:48:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 12
+[2024-10-08 08:48:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1dbc9bb3-PV6X1j.tmp
+[2024-10-08 08:48:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/feed/?simply_static_page=7
+[2024-10-08 08:48:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/feed/?simply_static_page=7
+[2024-10-08 08:48:28] [class-ss-url-fetcher.php:103] Filesize: 1748 bytes
+[2024-10-08 08:48:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-08 08:48:28] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-08 08:48:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1dbc9bb3-PV6X1j.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/feed/index.xml
+[2024-10-08 08:48:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:28] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-08 08:48:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:28] [class-ss-page.php:119] Checking Content Identical:124179f0534d6724571cf6d0372bff387ec8323c===. Value: FALSE
+[2024-10-08 08:48:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/comments/feed/
+[2024-10-08 08:48:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 12
+[2024-10-08 08:48:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1dcf1126-g4V0pf.tmp
+[2024-10-08 08:48:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/comments/feed/?simply_static_page=8
+[2024-10-08 08:48:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/comments/feed/?simply_static_page=8
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:103] Filesize: 1703 bytes
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1dcf1126-g4V0pf.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/comments/feed/index.xml
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:30] [class-ss-page.php:119] Checking Content Identical:ad8b07390d49c355df64f379932cd3698c0e755b===. Value: FALSE
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-08 08:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 12
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1de43039-HQ72au.tmp
+[2024-10-08 08:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=9
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=9
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:103] Filesize: 43154 bytes
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1de43039-HQ72au.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:30] [class-ss-page.php:119] Checking Content Identical:486538a3d1eba64427d3d73811a11ca2e094991e===. Value: FALSE
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-includes/css/dist/block-library/style.min.css
+[2024-10-08 08:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 12
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1de5c062-r1T7Gd.tmp
+[2024-10-08 08:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-includes/css/dist/block-library/style.min.css?simply_static_page=10
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-includes/css/dist/block-library/style.min.css?simply_static_page=10
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:103] Filesize: 110035 bytes
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1de5c062-r1T7Gd.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/wp-includes/css/dist/block-library/style.min.css
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:30] [class-ss-page.php:119] Checking Content Identical:5595a586cbd42b31377681b9d35293278d75d336===. Value: FALSE
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-json/
+[2024-10-08 08:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 12
+[2024-10-08 08:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1de81a31-sW2ejN.tmp
+[2024-10-08 08:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-json/?simply_static_page=11
+[2024-10-08 08:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-json/?simply_static_page=11
+[2024-10-08 08:48:31] [class-ss-url-fetcher.php:103] Filesize: 276187 bytes
+[2024-10-08 08:48:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-08 08:48:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-10-08 08:48:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1de81a31-sW2ejN.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/wp-json/index.html
+[2024-10-08 08:48:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-08 08:48:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:31] [class-ss-page.php:119] Checking Content Identical:2c84c359e4dc78e9f362e4765cd6edff3e498ad8===. Value: FALSE
+[2024-10-08 08:48:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/xmlrpc.php
+[2024-10-08 08:48:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 12
+[2024-10-08 08:48:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/blog/blog.github.io/xmlrpc.php
+[2024-10-08 08:48:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-08 08:48:31] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 12 pages/files
+[2024-10-08 08:48:31] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-08 08:48:31] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-08 08:48:31] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-08 08:48:31] [class-ss-fetch-urls-task.php:69] Total pages: 24; Pages remaining: 12
+[2024-10-08 08:48:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-admin/
+[2024-10-08 08:48:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 24
+[2024-10-08 08:48:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1df83e5f-iJgWNa.tmp
+[2024-10-08 08:48:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-admin/?simply_static_page=13
+[2024-10-08 08:48:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-admin/?simply_static_page=13
+[2024-10-08 08:48:32] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-08 08:48:32] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-10-08 08:48:32] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-08 08:48:32] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/blog/blog.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fblog%2Fblog.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D13&reauth=1
+[2024-10-08 08:48:32] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-10-08 08:48:32] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-10-08 08:48:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-10-08 08:48:32] [class-ss-page.php:119] Checking Content Identical:ed8c1fa4cc559df328e9a4587db1849ec042bf4b===. Value: FALSE
+[2024-10-08 08:48:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/sample-page/feed/
+[2024-10-08 08:48:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 24
+[2024-10-08 08:48:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e08dd1d-zBjwIp.tmp
+[2024-10-08 08:48:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/sample-page/feed/?simply_static_page=14
+[2024-10-08 08:48:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/sample-page/feed/?simply_static_page=14
+[2024-10-08 08:48:33] [class-ss-url-fetcher.php:103] Filesize: 765 bytes
+[2024-10-08 08:48:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-08 08:48:33] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-10-08 08:48:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1e08dd1d-zBjwIp.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/sample-page/feed/index.xml
+[2024-10-08 08:48:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:33] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-08 08:48:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:33] [class-ss-page.php:119] Checking Content Identical:c8965e81559fadb4b287bbe9188f02cecbd6fbd5===. Value: FALSE
+[2024-10-08 08:48:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-json/wp/v2/pages/2
+[2024-10-08 08:48:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 24
+[2024-10-08 08:48:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e1617a2-O0p9FZ.tmp
+[2024-10-08 08:48:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-json/wp/v2/pages/2?simply_static_page=15
+[2024-10-08 08:48:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-json/wp/v2/pages/2?simply_static_page=15
+[2024-10-08 08:48:34] [class-ss-url-fetcher.php:103] Filesize: 5322 bytes
+[2024-10-08 08:48:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-08 08:48:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/2\index.html
+[2024-10-08 08:48:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1e1617a2-O0p9FZ.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/wp-json/wp/v2/pages/2\index.html
+[2024-10-08 08:48:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-08 08:48:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:34] [class-ss-page.php:119] Checking Content Identical:4c2de0a7e1beca5092f6f59714ec697c8fec9671===. Value: FALSE
+[2024-10-08 08:48:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-json/oembed/1.0/embed
+[2024-10-08 08:48:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 24
+[2024-10-08 08:48:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e24b535-8sdcWC.tmp
+[2024-10-08 08:48:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-json/oembed/1.0/embed?simply_static_page=16
+[2024-10-08 08:48:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-json/oembed/1.0/embed?simply_static_page=16
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-08 08:48:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/category/uncategorized/feed/
+[2024-10-08 08:48:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 24
+[2024-10-08 08:48:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e31e5a1-stOHQU.tmp
+[2024-10-08 08:48:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/category/uncategorized/feed/?simply_static_page=17
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/category/uncategorized/feed/?simply_static_page=17
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:103] Filesize: 1794 bytes
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1e31e5a1-stOHQU.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/category/uncategorized/feed/index.xml
+[2024-10-08 08:48:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:35] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-08 08:48:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:35] [class-ss-page.php:119] Checking Content Identical:f7f06425f0a015963e0b4990ba6c6fbf43ea4336===. Value: FALSE
+[2024-10-08 08:48:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-json/wp/v2/categories/1
+[2024-10-08 08:48:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 24
+[2024-10-08 08:48:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e3f212f-t7vuwm.tmp
+[2024-10-08 08:48:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-json/wp/v2/categories/1?simply_static_page=18
+[2024-10-08 08:48:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-json/wp/v2/categories/1?simply_static_page=18
+[2024-10-08 08:48:36] [class-ss-url-fetcher.php:103] Filesize: 686 bytes
+[2024-10-08 08:48:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-08 08:48:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/1\index.html
+[2024-10-08 08:48:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1e3f212f-t7vuwm.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/wp-json/wp/v2/categories/1\index.html
+[2024-10-08 08:48:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-08 08:48:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:36] [class-ss-page.php:119] Checking Content Identical:bf8c5b2408ae8a1773f9c5241e2f996c3de268c8===. Value: FALSE
+[2024-10-08 08:48:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-includes/js/comment-reply.min.js
+[2024-10-08 08:48:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 24
+[2024-10-08 08:48:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e4f147b-HDByIl.tmp
+[2024-10-08 08:48:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=19
+[2024-10-08 08:48:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=19
+[2024-10-08 08:48:37] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-08 08:48:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-08 08:48:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-08 08:48:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1e4f147b-HDByIl.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/wp-includes/js/comment-reply.min.js
+[2024-10-08 08:48:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-08 08:48:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:37] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-08 08:48:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/2024/10/08/hello-world/feed/
+[2024-10-08 08:48:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 24
+[2024-10-08 08:48:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e524736-blDAAb.tmp
+[2024-10-08 08:48:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/2024/10/08/hello-world/feed/?simply_static_page=20
+[2024-10-08 08:48:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/2024/10/08/hello-world/feed/?simply_static_page=20
+[2024-10-08 08:48:38] [class-ss-url-fetcher.php:103] Filesize: 1727 bytes
+[2024-10-08 08:48:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-08 08:48:38] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/08/hello-world/feed/index.xml
+[2024-10-08 08:48:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1e524736-blDAAb.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/2024/10/08/hello-world/feed/index.xml
+[2024-10-08 08:48:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:38] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-08 08:48:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:38] [class-ss-page.php:119] Checking Content Identical:f424aeb81f646831b530a6b3388178b6c0ecae1e===. Value: FALSE
+[2024-10-08 08:48:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-json/wp/v2/posts/1
+[2024-10-08 08:48:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 24
+[2024-10-08 08:48:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e6438c1-69hChM.tmp
+[2024-10-08 08:48:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-json/wp/v2/posts/1?simply_static_page=21
+[2024-10-08 08:48:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-json/wp/v2/posts/1?simply_static_page=21
+[2024-10-08 08:48:39] [class-ss-url-fetcher.php:103] Filesize: 4569 bytes
+[2024-10-08 08:48:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-08 08:48:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-10-08 08:48:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1e6438c1-69hChM.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/wp-json/wp/v2/posts/1\index.html
+[2024-10-08 08:48:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-08 08:48:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:39] [class-ss-page.php:119] Checking Content Identical:63fcc3c433866ed71caecc5a35217dee6a25c800===. Value: FALSE
+[2024-10-08 08:48:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/author/admin/feed/
+[2024-10-08 08:48:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 24
+[2024-10-08 08:48:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e746993-PQ32BT.tmp
+[2024-10-08 08:48:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/author/admin/feed/?simply_static_page=22
+[2024-10-08 08:48:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/author/admin/feed/?simply_static_page=22
+[2024-10-08 08:48:40] [class-ss-url-fetcher.php:103] Filesize: 1776 bytes
+[2024-10-08 08:48:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-08 08:48:40] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/feed/index.xml
+[2024-10-08 08:48:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1e746993-PQ32BT.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/author/admin/feed/index.xml
+[2024-10-08 08:48:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:40] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-08 08:48:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:40] [class-ss-page.php:119] Checking Content Identical:24a07c74e3f824bcd2d568351531689fe52b52d1===. Value: FALSE
+[2024-10-08 08:48:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-json/wp/v2/users/1
+[2024-10-08 08:48:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 24
+[2024-10-08 08:48:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e83cf7e-UNCq3o.tmp
+[2024-10-08 08:48:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/wp-json/wp/v2/users/1?simply_static_page=23
+[2024-10-08 08:48:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/wp-json/wp/v2/users/1?simply_static_page=23
+[2024-10-08 08:48:41] [class-ss-url-fetcher.php:103] Filesize: 648 bytes
+[2024-10-08 08:48:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-08 08:48:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/users/1\index.html
+[2024-10-08 08:48:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1e83cf7e-UNCq3o.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296/wp-json/wp/v2/users/1\index.html
+[2024-10-08 08:48:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-08 08:48:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-08 08:48:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-08 08:48:41] [class-ss-page.php:119] Checking Content Identical:bed4078b99198a9f50d535dbe3ca03e217b94b5b===. Value: FALSE
+[2024-10-08 08:48:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io
+[2024-10-08 08:48:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 24
+[2024-10-08 08:48:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-08 08:48:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1e912bce-l32hb3.tmp
+[2024-10-08 08:48:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io?simply_static_page=24
+[2024-10-08 08:48:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io?simply_static_page=24
+[2024-10-08 08:48:41] [class-ss-url-fetcher.php:103] Filesize: 366 bytes
+[2024-10-08 08:48:41] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-08 08:48:41] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-08 08:48:41] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/blog/blog.github.io/
+[2024-10-08 08:48:41] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-08 08:48:41] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 12 of 24 pages/files
+[2024-10-08 08:48:41] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-08 08:48:42] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-08 08:48:42] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-08 08:48:42] [class-ss-fetch-urls-task.php:69] Total pages: 25; Pages remaining: 1
+[2024-10-08 08:48:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/blog/blog.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fblog%2Fblog.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D13&reauth=1
+[2024-10-08 08:48:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 25
+[2024-10-08 08:48:42] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/blog/blog.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fblog%2Fblog.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D13&reauth=1
+[2024-10-08 08:48:42] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-08 08:48:42] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 24 of 25 pages/files
+[2024-10-08 08:48:42] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-08 08:48:42] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-08 08:48:42] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-08 08:48:42] [class-ss-fetch-urls-task.php:69] Total pages: 25; Pages remaining: 0
+[2024-10-08 08:48:42] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 25 of 25 pages/files
+[2024-10-08 08:48:42] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-08 08:48:42] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-08 08:48:42] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-08 08:48:42] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-08 08:48:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6704f1ea53eab-x2z1dL.tmp
+[2024-10-08 08:48:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/blog/blog.github.io/1728377323?simply_static_page=0
+[2024-10-08 08:48:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/blog/blog.github.io/1728377323?simply_static_page=0
+[2024-10-08 08:48:43] [class-ss-url-fetcher.php:103] Filesize: 93871 bytes
+[2024-10-08 08:48:43] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-08 08:48:43] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-08 08:48:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6704f1ea53eab-x2z1dL.tmp to C:\xampp\htdocs\blog\blog.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1728377296\404/index.html
+[2024-10-08 08:48:43] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-08 08:48:43] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-08 08:48:43] [class-ss-page.php:119] Checking Content Identical:7256e0407826a5f30329c6e3a65556c8fd316f46===. Value: FALSE
+[2024-10-08 08:48:43] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-08 08:48:43] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-08 08:48:43] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-08 08:48:43] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-08 08:48:43] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 21 of 21 files
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/sample-page
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/category/uncategorized
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/2024/10/08/hello-world
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/author/admin
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-content/themes/astra/assets/js/minified
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/feed
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/comments/feed
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-content/themes/astra/assets/css/minified
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-includes/css/dist/block-library
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-json
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-admin
+[2024-10-08 08:48:43] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/sample-page/feed
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-json/wp/v2/pages
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/blog/blog.github.io/wp-content/uploads/simply-static/temp-files/simply-static-1-1728377296/wp-json/wp/v2/pages/2/index.html to C:/xampp/htdocs/blog/blog.github.io/wp-json/wp/v2/pages/2/index.html
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/category/uncategorized/feed
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-json/wp/v2/categories
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/blog/blog.github.io/wp-content/uploads/simply-static/temp-files/simply-static-1-1728377296/wp-json/wp/v2/categories/1/index.html to C:/xampp/htdocs/blog/blog.github.io/wp-json/wp/v2/categories/1/index.html
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-includes/js
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/2024/10/08/hello-world/feed
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-json/wp/v2/posts
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/blog/blog.github.io/wp-content/uploads/simply-static/temp-files/simply-static-1-1728377296/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/blog/blog.github.io/wp-json/wp/v2/posts/1/index.html
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/author/admin/feed
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/blog/blog.github.io/wp-json/wp/v2/users
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/blog/blog.github.io/wp-content/uploads/simply-static/temp-files/simply-static-1-1728377296/wp-json/wp/v2/users/1/index.html to C:/xampp/htdocs/blog/blog.github.io/wp-json/wp/v2/users/1/index.html
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:21. Processed Pages: 21
+[2024-10-08 08:48:44] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 21 of 21 files
+[2024-10-08 08:48:44] [trait-can-process-pages.php:110] Total pages: 21; Pages remaining: 0
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/blog/blog.github.io\404\index.html
+[2024-10-08 08:48:44] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-10-08 08:48:44] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://yusraateeq.github.io/blog.github.io/" target="_blank">https://yusraateeq.github.io/blog.github.io/</a>
+[2024-10-08 08:48:44] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-08 08:48:44] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-08 08:48:44] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-08 08:48:44] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-08 08:48:44] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-08 08:48:44] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-08 08:48:44] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-08 08:48:44] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:28
